@@ -1,0 +1,34 @@
+<form action="/formulario" method="post">
+<fieldset>
+<legend>Tus datos</legend>
+  <ul>
+    <li>
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="user_name" placeholder="Tu nombre" />
+    </li>
+    <li>
+      <label for="last name">Apellido:</label>
+      <input type="text" id="last name" name="user_last name" placeholder="Tu apellido" />
+    </li>
+    <li>
+      <label for="mail">Correo electrónico:</label>
+      <input type="email" id="mail" name="user_mail" placeholder="Por ejemplo yo@dominio.com" />
+    </li>
+</fieldset>
+<fieldset>
+<legend>Tu consulta</legend>    
+    <li>
+      <label for="subject">Asunto:</label>
+      <input type="text" id="subject" name="subject" placeholder="Explica brevemente tu consulta" />
+    </li>
+    <li>
+      <label for="msg">Mensaje:</label>
+      <textarea id="msg" name="user_message" placeholder="Cuentanos mas"></textarea>
+    </li>
+</fieldset>
+  </ul>
+    <class="button">
+      <button type="submit">Enviar</button>
+    <class="button">
+      <button type="reset">Reiniciar formulario</button>
+</form>
